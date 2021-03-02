@@ -1,0 +1,63 @@
+* {padding: 0; margin: 0;}
+p {margin-bottom: 20px;}
+
+body{background: #a486d8}
+h1{font-size: 50px;
+    color: white;
+    font-weight: 800;
+    -webkit-text-stroke: 2px rgba(0,0,0,1);}
+
+header {
+background: rgba(0,0,0,0.9);
+width: 100%;
+position: fixed;
+z-index: 100;}
+
+nav {float: left;
+    position: relative;
+    left: 50%}
+
+nav ul {
+list-style: none;
+overflow: hidden;
+position: relative;
+left: -50%}
+
+nav ul li.menu{display: block;  
+padding: 20px;
+color: #a486d8;
+text-decoration: none;
+float: left;
+Position: fixed;
+Left: 0%;
+font-weight: 800}
+
+nav ul li {
+float: left; 
+font-family: Arial, sans-serif; 
+font-size: 16px;}
+
+nav ul li a {
+display: block;  
+padding: 20px;
+color: #fff;
+text-decoration: none;}
+
+nav ul li:hover{
+animation-duration: 0.5s;
+animation-name: fadein;
+background: rgba(104,53,156,0.9)
+} 
+
+@keyframes fadein{
+from{background: rgba(0,0,0,0.9);} /*Inicio de la animación (desde)*/
+to{background: rgba(104,53,156,0.9);} /*Final de la animación (hasta)*/
+}
+
+.contenido{
+width: 80%;
+margin: auto;
+overflow:hidden;
+padding-top: 80px;}
+
+
